@@ -1,0 +1,103 @@
+:root {
+	font-size: calc(1rem * 1.5);
+}
+
+html, body {
+	min-height: 100vh;
+	margin: 0;
+	font-family: Mohave, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+	display: grid;
+	place-content: center;
+	background-color: whitesmoke;
+}
+
+main {
+	max-width: 40ch;
+	margin: auto;
+	background-color: white;
+	padding: 1rem 2rem;
+	border-radius: 20px;
+	box-shadow:
+		0 0 #0000,
+		0 0 #0000,
+		0 25px 50px -12px rgba(0, 0, 0, 0.65);
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	font-weight: 300;
+	max-width: 25ch;
+	text-align: center;
+	margin: 1em auto 0.2em;
+}
+
+h1 strong {
+	font-weight: 600;
+}
+
+h1 + p {
+	text-align: center;
+}
+
+h1 + p.ratio {
+	margin: 0;
+	font-size: 8rem;
+}
+
+form {
+	text-align: center;
+}
+
+.fields {
+	display: flex;
+	gap: 2em;
+}
+
+.fields > div {
+	width: 50%;
+}
+
+label {
+	font-size: 1.25rem;
+	font-weight: 600;
+	display: block;
+}
+
+input {
+	width: 100%;
+	height: 3em;
+}
+
+button {
+	width: 75%;
+	margin: 0.5em auto;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-family: inherit;
+	font-size: 2rem;
+	border: 3px solid black;
+	text-align: center;
+}
+
+button:hover, button:focus {
+	background-color: white;
+	color: black;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+@media screen and (max-width: 580px) {
+	:root {
+		font-size: 1rem;
+	}
+}
