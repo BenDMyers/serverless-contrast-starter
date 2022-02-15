@@ -27,15 +27,14 @@ main {
 }
 
 h1 {
-	text-transform: uppercase;
 	font-size: 1.8rem;
 	font-weight: 300;
-	max-width: 25ch;
+	max-width: 19ch;
 	text-align: center;
 	margin: 1em auto 0.2em;
 }
 
-h1 strong {
+h1 strong, h1 b {
 	font-weight: 600;
 }
 
@@ -43,21 +42,17 @@ h1 + p {
 	text-align: center;
 }
 
-h1 + p.ratio {
-	margin: 0;
+output {
 	font-size: 8rem;
 }
 
 form {
 	text-align: center;
-}
-
-.fields {
 	display: flex;
 	gap: 2em;
 }
 
-.fields > div {
+form > div {
 	width: 50%;
 }
 
