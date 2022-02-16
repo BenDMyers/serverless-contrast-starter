@@ -38,7 +38,7 @@ h1 strong, h1 b {
 	font-weight: 600;
 }
 
-h1 + p {
+p {
 	text-align: center;
 }
 
@@ -89,6 +89,10 @@ button:hover, button:focus {
 
 button:active {
 	transform: scale(0.95);
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 @media screen and (max-width: 580px) {
