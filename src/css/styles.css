@@ -1,5 +1,5 @@
 :root {
-	font-size: calc(1rem * 1.5);
+	font-size: 1.25rem;
 }
 
 html, body {
@@ -52,7 +52,16 @@ form {
 	gap: 2em;
 }
 
-form > div {
+form {
+	text-align: center;
+}
+
+.fields {
+	display: flex;
+	gap: 2em;
+}
+
+.fields > div {
 	width: 50%;
 }
 
